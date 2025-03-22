@@ -57,6 +57,8 @@ If x has type α and s has type Set α, then x ∈ s is a proposition that asser
 
 “makes no sense” means “has no type hence Lean does not accept it as a well-formed statement”. This contrasts with Zermelo-Fraenkel set theory for instance where a ∈ b is a well-formed statement for every mathematical objects a and b. For instance sin ∈ cos is a well-formed statement in ZF. This defect of set theoretic foundations is an important motivation for not using it in a proof assistant which is meant to assist us by detecting meaningless expressions. In Lean sin has type ℝ → ℝ and cos has type ℝ → ℝ which is not equal to Set (ℝ → ℝ), even after unfolding definitions, so the statement sin ∈ cos makes no sense. One can also use Lean to work on set theory itself. For instance the independence of the continuum hypothesis from the axioms of Zermelo-Fraenkel has been formalized in Lean. But such a meta-theory of set theory is completely beyond the scope of this book.
 
+For more reading:https://www.math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/Lian.pdf
+
 ### Take 8: Mathlib defines $Function.Injective$ f with x₁ and x₂ implicit.
 
 A function f is said to be injective if for every x1 and x2, if f(x1)=f(x2), then x1=x2.
