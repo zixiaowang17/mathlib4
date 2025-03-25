@@ -1,6 +1,3 @@
-# Daily practice
-
-*Zixiao Wang, March 21st, 2025*
 
 # Goal:
 - finish section 3: it is structred in a way that, we first summarize take away and then support each take away by examples.
