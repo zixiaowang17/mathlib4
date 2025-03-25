@@ -1,11 +1,10 @@
-# Daily practice
-
-*Zixiao Wang, March 6th, 2025*
 
 # Todays Takeaway
 1. I suggest doing not just proof but also provide text version of what being claimed - in the future, people might transfer human language to code using LLM (I consult a lot, also my cs firends using gpt to code), and this dataset could contribute to a better math assistant.
 
+2. I had a hard time going through library to figure out which level of package should i import, i found some link however still confused.
 
+3. i think it is generally hard to read all the techinical proof until we try something, so I am trying to start a small project doing IF calculation.
 
 # Goal: Learning Logic & Proof Techniques (Chapter 3)
 # Note on restart lean4
